@@ -1,0 +1,36 @@
+{
+  "name": "generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/cli.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "clean": "rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diluka/generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Diluka/generator/issues"
+  },
+  "homepage": "https://github.com/Diluka/generator#readme",
+  "devDependencies": {
+    "@types/app-root-path": "^1.2.4",
+    "@types/lodash": "^4.14.123",
+    "@types/node": "^10.14.1",
+    "prettier": "^1.16.4",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "app-root-path": "^2.1.0",
+    "commander": "^2.19.0",
+    "lodash": "^4.17.11",
+    "tslib": "^1.9.3",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  }
+}
